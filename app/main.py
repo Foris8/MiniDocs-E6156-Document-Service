@@ -153,3 +153,17 @@ def read_all_documents(last_evaluated_key: Union[str, None] = None):
         return {"items": items, "last_evaluated_key": last_evaluated_key}
     except ClientError as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+#handle share
+@app.get("/share")
+def share_document():
+
+    # Send SNS notification
+    try:
+        sns.publish(
+            TopicArn='arn:aws:sns:us-east-1:908208090221:MyTestTopic',
+            Message=f'minidocse6156@gmail.com, Document has been shared',
+        )
+        return {"message": "Document shared and notification sent"}
+    except ClientError as e:
+        raise HTTPException(status_code=500, detail=str(e))
