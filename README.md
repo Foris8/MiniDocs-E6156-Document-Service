@@ -9,6 +9,7 @@ MiniDocs is a cloud-native application designed to facilitate document managemen
 </p>
 
 ### Project Links
+- **Live Website:** [Visit Site](http://minidocs-frontend.s3-website.us-east-2.amazonaws.com/)
 - **Demo Videos:** [Google Drive Folder](https://drive.google.com/drive/folders/1jZe3mKxKsFEuq3tAHfAvhYmKbLEuqPyO?usp=sharing)
 
 ## Key Features
