@@ -4,13 +4,14 @@
 
 MiniDocs is a cloud-native application designed to facilitate document management. Developed by the E6156 - Topics in SW Engineering Management: Cloud Computing team at Columbia University, this project offers an efficient and user-friendly way to manage documents in the cloud.
 
-<p align="center">
-  <img src="./s3.png" />
-</p>
 
 ### Project Links
 - **Live Website:** [Visit Site](http://minidocs-frontend.s3-website.us-east-2.amazonaws.com/)
 - **Demo Videos:** [Google Drive Folder](https://drive.google.com/drive/folders/1jZe3mKxKsFEuq3tAHfAvhYmKbLEuqPyO?usp=sharing)
+
+<p align="center">
+  <img src="./s3.png" />
+</p>
 
 ## Physical View
 <p align="center">
